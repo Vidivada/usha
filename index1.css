@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-image: url('https://miro.medium.com/v2/resize:fit:596/1*taE6PU7FLnrbcovWiWMIog.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  
+  
+}
+
+#guess-input {
+    width: 60px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#attempts {
+    margin-top: 10px;
+}
+h1{
+    color: green;
+}
+h2{
+    color:green;
+}
+#guessBtn-button {
+    background-color: #4caf50; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: 5px solid #4caf50; /* Add a 2px solid border with the same color as the background */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#guessBtn-button:hover {
+    background-color: #45a049; /* Change the background color on hover */
+}
